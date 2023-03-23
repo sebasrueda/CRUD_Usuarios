@@ -1,0 +1,13 @@
+CREATE DATABASE taller2;
+USE taller2;
+
+CREATE TABLE usuarios(
+id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+nombre VARCHAR(50) NOT NULL,
+usuario VARCHAR(20) NOT NULL,
+contrasena VARCHAR(20) NOT NULL,
+tipo_usuario VARCHAR(20) NOT NULL,
+confirmar VARCHAR(50) NOT NULL
+);
+
+SELECT * FROM usuarios;
